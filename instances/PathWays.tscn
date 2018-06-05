@@ -1,14 +1,14 @@
 [gd_scene load_steps=4 format=2]
 
-[ext_resource path="res://scripts/Block.gd" type="Script" id=1]
-[ext_resource path="res://sprites/Tiles/greystone.png" type="Texture" id=2]
+[ext_resource path="res://scripts/PathWays.gd" type="Script" id=1]
+[ext_resource path="res://sprites/Tiles/grass1.png" type="Texture" id=2]
 
 [sub_resource type="RectangleShape2D" id=1]
 
 custom_solver_bias = 0.0
-extents = Vector2( 63.7542, 63.8707 )
+extents = Vector2( 31.5396, 64.4617 )
 
-[node name="Block" type="StaticBody2D"]
+[node name="PathWays" type="StaticBody2D"]
 
 input_pickable = false
 collision_layer = 1
@@ -25,6 +25,8 @@ texture = ExtResource( 2 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." index="1"]
 
+position = Vector2( 1.20931, 34.8775 )
+scale = Vector2( 0.950768, 0.483002 )
 shape = SubResource( 1 )
 
 
