@@ -4,6 +4,7 @@ var noise = preload("res://scripts/softnoise.gd")
 var block = preload("res://instances/Block.tscn")
 var path_object = preload("res://instances/PathWays.tscn")
 var main_char = preload("res://instances/Player.tscn")
+var grass_object = preload("res://instances/PathObjects/Area2d/Grass.tscn")
 
 enum block_types {
 	GRASS, DIRT, STONE, BEDROCK
@@ -42,7 +43,8 @@ func _ready():
 	
 	for i in range(0, 20):
 		randomize()
-		generate_path_objects(Vector2(covered_objects[i]*128, walkable_surface[covered_objects[i]]*128), randi()%5)
+#		generate_path_objects(Vector2(covered_objects[i]*128, walkable_surface[covered_objects[i]]*128), randi()%5)
+		generate_area_objects(Vector2(covered_objects[i]*128, walkable_surface[covered_objects[i]]*128))
 		
 	generate_main_char(Vector2(res_x*128,walkable_surface[res_x]*128))
 	pass
@@ -57,6 +59,11 @@ func generate_path_objects(pos, type):
 	var new_object = path_object.instance()
 	new_object.translate(pos)
 	new_object.path_way_type = type
+	add_child(new_object)
+
+func generate_area_objects(pos):
+	var new_object = grass_object.instance()
+	new_object.translate(pos)
 	add_child(new_object)
 	
 func generate_main_char(pos):

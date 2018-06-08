@@ -5,6 +5,9 @@ const WALK_SPEED = 200
 
 var velocity = Vector2()
 
+func _ready():
+	set_process_input(true)
+
 func _physics_process(delta):
 	velocity.y += delta * GRAVITY
 	
@@ -25,6 +28,6 @@ func _physics_process(delta):
     # In the case of a 2d platformer, in Godot upward is negative y, which translates to -1 as a normal.
 	move_and_slide(velocity, Vector2(0, -1))
 
-#func _ready():
-#	get_node("Sprite").texture = preload("res://sprites/Tiles/grass1.png")
-#	pass
+#func _process(delta): 
+#	if Input.is_key_pressed(KEY_X):
+#		print("left key pressed")
