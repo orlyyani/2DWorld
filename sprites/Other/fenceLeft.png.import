@@ -3,20 +3,21 @@
 importer="texture"
 type="StreamTexture"
 path="res://.import/fenceLeft.png-475b4ea1fd4409f4602f3de15d72b3cc.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
 source_file="res://sprites/Other/fenceLeft.png"
-source_md5="f62c62c9e74a325600681ec77c5e6262"
-
 dest_files=[ "res://.import/fenceLeft.png-475b4ea1fd4409f4602f3de15d72b3cc.stex" ]
-dest_md5="a229ba111d61d3cb9224c09a4823c335"
 
 [params]
 
 compress/mode=0
 compress/lossy_quality=0.7
 compress/hdr_mode=0
+compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
 flags/filter=true
@@ -26,6 +27,7 @@ flags/srgb=2
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/HDR_as_SRGB=false
+process/invert_color=false
 stream=false
 size_limit=0
 detect_3d=true

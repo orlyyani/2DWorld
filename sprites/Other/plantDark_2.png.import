@@ -3,20 +3,21 @@
 importer="texture"
 type="StreamTexture"
 path="res://.import/plantDark_2.png-ad8ac35c061ed41c3dde1b9facb6d1fc.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
 source_file="res://sprites/Other/plantDark_2.png"
-source_md5="84ae22f4049e77f9551e0680c7d31232"
-
 dest_files=[ "res://.import/plantDark_2.png-ad8ac35c061ed41c3dde1b9facb6d1fc.stex" ]
-dest_md5="688a2e132e2cd396c907a760c098f177"
 
 [params]
 
 compress/mode=0
 compress/lossy_quality=0.7
 compress/hdr_mode=0
+compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
 flags/filter=true
@@ -26,6 +27,7 @@ flags/srgb=2
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/HDR_as_SRGB=false
+process/invert_color=false
 stream=false
 size_limit=0
 detect_3d=true

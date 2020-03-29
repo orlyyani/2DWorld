@@ -3,20 +3,21 @@
 importer="texture"
 type="StreamTexture"
 path="res://.import/lockGreenLeft.png-d4d16a1240243519534bb7703a597d5d.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
 source_file="res://sprites/Other/lockGreenLeft.png"
-source_md5="f8eb7135dbc42cd32961851c7252e748"
-
 dest_files=[ "res://.import/lockGreenLeft.png-d4d16a1240243519534bb7703a597d5d.stex" ]
-dest_md5="4464fa54cbd59033a554e0f70e6eaaf9"
 
 [params]
 
 compress/mode=0
 compress/lossy_quality=0.7
 compress/hdr_mode=0
+compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
 flags/filter=true
@@ -26,6 +27,7 @@ flags/srgb=2
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/HDR_as_SRGB=false
+process/invert_color=false
 stream=false
 size_limit=0
 detect_3d=true

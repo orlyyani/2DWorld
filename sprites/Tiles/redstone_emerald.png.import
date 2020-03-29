@@ -3,20 +3,21 @@
 importer="texture"
 type="StreamTexture"
 path="res://.import/redstone_emerald.png-092d6cc4bcd2fb08bd71a914d06acc67.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
 source_file="res://sprites/Tiles/redstone_emerald.png"
-source_md5="a8ec324d6d834d47c603036c4b5bac0a"
-
 dest_files=[ "res://.import/redstone_emerald.png-092d6cc4bcd2fb08bd71a914d06acc67.stex" ]
-dest_md5="68c45b15066b0b60cd28b415231f5ae4"
 
 [params]
 
 compress/mode=0
 compress/lossy_quality=0.7
 compress/hdr_mode=0
+compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
 flags/filter=true
@@ -26,6 +27,7 @@ flags/srgb=2
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/HDR_as_SRGB=false
+process/invert_color=false
 stream=false
 size_limit=0
 detect_3d=true

@@ -3,20 +3,21 @@
 importer="texture"
 type="StreamTexture"
 path="res://.import/wheat_stage4.png-85539aa0547654aced08e4ac8ffeee46.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
 source_file="res://sprites/Tiles/wheat_stage4.png"
-source_md5="377301c1e84d90f912fb78fc00659d1e"
-
 dest_files=[ "res://.import/wheat_stage4.png-85539aa0547654aced08e4ac8ffeee46.stex" ]
-dest_md5="a33b1acad6f240d58fece69a0f04e6e8"
 
 [params]
 
 compress/mode=0
 compress/lossy_quality=0.7
 compress/hdr_mode=0
+compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
 flags/filter=true
@@ -26,6 +27,7 @@ flags/srgb=2
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/HDR_as_SRGB=false
+process/invert_color=false
 stream=false
 size_limit=0
 detect_3d=true

@@ -3,20 +3,21 @@
 importer="texture"
 type="StreamTexture"
 path="res://.import/signpost.png-46f5ce41dba31e95364c80294e699744.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
 source_file="res://sprites/Other/signpost.png"
-source_md5="c32f7168824093e13b619dca244a5a92"
-
 dest_files=[ "res://.import/signpost.png-46f5ce41dba31e95364c80294e699744.stex" ]
-dest_md5="956ede8f65ce4dfb0e82904758cf4cba"
 
 [params]
 
 compress/mode=0
 compress/lossy_quality=0.7
 compress/hdr_mode=0
+compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
 flags/filter=true
@@ -26,6 +27,7 @@ flags/srgb=2
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/HDR_as_SRGB=false
+process/invert_color=false
 stream=false
 size_limit=0
 detect_3d=true

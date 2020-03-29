@@ -3,20 +3,21 @@
 importer="texture"
 type="StreamTexture"
 path="res://.import/mushroom_brown.png-8ec85d5f26a1b2dd5084c35b8c5bddc9.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
 source_file="res://sprites/Tiles/mushroom_brown.png"
-source_md5="af968ba929991fd0cbc65d3959cf2cf7"
-
 dest_files=[ "res://.import/mushroom_brown.png-8ec85d5f26a1b2dd5084c35b8c5bddc9.stex" ]
-dest_md5="cedb62c334be0639bfb960cc6dd877c2"
 
 [params]
 
 compress/mode=0
 compress/lossy_quality=0.7
 compress/hdr_mode=0
+compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
 flags/filter=true
@@ -26,6 +27,7 @@ flags/srgb=2
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/HDR_as_SRGB=false
+process/invert_color=false
 stream=false
 size_limit=0
 detect_3d=true

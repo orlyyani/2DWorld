@@ -3,20 +3,21 @@
 importer="texture"
 type="StreamTexture"
 path="res://.import/switchGreen_mid.png-4f17a1bad8b1d9b4c87c54c07c286cba.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
 source_file="res://sprites/Other/switchGreen_mid.png"
-source_md5="5155dc7a1396505482cf6362fc1995b6"
-
 dest_files=[ "res://.import/switchGreen_mid.png-4f17a1bad8b1d9b4c87c54c07c286cba.stex" ]
-dest_md5="3be730571418af408be34483a7d4aa9a"
 
 [params]
 
 compress/mode=0
 compress/lossy_quality=0.7
 compress/hdr_mode=0
+compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
 flags/filter=true
@@ -26,6 +27,7 @@ flags/srgb=2
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/HDR_as_SRGB=false
+process/invert_color=false
 stream=false
 size_limit=0
 detect_3d=true

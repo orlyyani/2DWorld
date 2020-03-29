@@ -3,20 +3,21 @@
 importer="texture"
 type="StreamTexture"
 path="res://.import/fence_wood.png-09f3145aa2aa4c2acbaadc5618a9ee07.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
 source_file="res://sprites/Tiles/fence_wood.png"
-source_md5="ce2d45104092fba2ee93ffbf27278f20"
-
 dest_files=[ "res://.import/fence_wood.png-09f3145aa2aa4c2acbaadc5618a9ee07.stex" ]
-dest_md5="98638a512bae3c075cee1f0f42071a04"
 
 [params]
 
 compress/mode=0
 compress/lossy_quality=0.7
 compress/hdr_mode=0
+compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
 flags/filter=true
@@ -26,6 +27,7 @@ flags/srgb=2
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/HDR_as_SRGB=false
+process/invert_color=false
 stream=false
 size_limit=0
 detect_3d=true

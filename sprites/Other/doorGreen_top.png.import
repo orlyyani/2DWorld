@@ -3,20 +3,21 @@
 importer="texture"
 type="StreamTexture"
 path="res://.import/doorGreen_top.png-527fb2080d4d8cf8e46912d3fb7e89c1.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
 source_file="res://sprites/Other/doorGreen_top.png"
-source_md5="06d0d8262f5ede3d354ee250087e7174"
-
 dest_files=[ "res://.import/doorGreen_top.png-527fb2080d4d8cf8e46912d3fb7e89c1.stex" ]
-dest_md5="f330a770701b7589677a75cf67355627"
 
 [params]
 
 compress/mode=0
 compress/lossy_quality=0.7
 compress/hdr_mode=0
+compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
 flags/filter=true
@@ -26,6 +27,7 @@ flags/srgb=2
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/HDR_as_SRGB=false
+process/invert_color=false
 stream=false
 size_limit=0
 detect_3d=true

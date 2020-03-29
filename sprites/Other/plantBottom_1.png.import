@@ -3,20 +3,21 @@
 importer="texture"
 type="StreamTexture"
 path="res://.import/plantBottom_1.png-227fd7868e25df789f401d594d22769e.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
 source_file="res://sprites/Other/plantBottom_1.png"
-source_md5="19801c40b0c54e5c1156e50dc8589636"
-
 dest_files=[ "res://.import/plantBottom_1.png-227fd7868e25df789f401d594d22769e.stex" ]
-dest_md5="63c94842db86375ead7f3f9a366319ce"
 
 [params]
 
 compress/mode=0
 compress/lossy_quality=0.7
 compress/hdr_mode=0
+compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
 flags/filter=true
@@ -26,6 +27,7 @@ flags/srgb=2
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/HDR_as_SRGB=false
+process/invert_color=false
 stream=false
 size_limit=0
 detect_3d=true

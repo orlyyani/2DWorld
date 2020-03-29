@@ -3,20 +3,21 @@
 importer="texture"
 type="StreamTexture"
 path="res://.import/doorOpen.png-1a922d379e5da9816234c93950c6d5f9.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
 source_file="res://sprites/Other/doorOpen.png"
-source_md5="b3e1ef7fc5cf3862e27c2d5f74a57c38"
-
 dest_files=[ "res://.import/doorOpen.png-1a922d379e5da9816234c93950c6d5f9.stex" ]
-dest_md5="e5b6c6f2e5b36165aeb62212798c5fe9"
 
 [params]
 
 compress/mode=0
 compress/lossy_quality=0.7
 compress/hdr_mode=0
+compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
 flags/filter=true
@@ -26,6 +27,7 @@ flags/srgb=2
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/HDR_as_SRGB=false
+process/invert_color=false
 stream=false
 size_limit=0
 detect_3d=true

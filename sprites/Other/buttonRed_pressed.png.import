@@ -3,20 +3,21 @@
 importer="texture"
 type="StreamTexture"
 path="res://.import/buttonRed_pressed.png-2b57945f85da41a6be247f96df02bb81.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
 source_file="res://sprites/Other/buttonRed_pressed.png"
-source_md5="354ff5bc49bb130c19b953ba0240b737"
-
 dest_files=[ "res://.import/buttonRed_pressed.png-2b57945f85da41a6be247f96df02bb81.stex" ]
-dest_md5="41b138116002217e867a194db6f05166"
 
 [params]
 
 compress/mode=0
 compress/lossy_quality=0.7
 compress/hdr_mode=0
+compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
 flags/filter=true
@@ -26,6 +27,7 @@ flags/srgb=2
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/HDR_as_SRGB=false
+process/invert_color=false
 stream=false
 size_limit=0
 detect_3d=true

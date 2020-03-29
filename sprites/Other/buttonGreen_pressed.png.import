@@ -3,20 +3,21 @@
 importer="texture"
 type="StreamTexture"
 path="res://.import/buttonGreen_pressed.png-0056fe2187b9d71a9f01e2e5e9fb13e4.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
 source_file="res://sprites/Other/buttonGreen_pressed.png"
-source_md5="94bdcaeb1fa92bac12f5bb2b6c1febb0"
-
 dest_files=[ "res://.import/buttonGreen_pressed.png-0056fe2187b9d71a9f01e2e5e9fb13e4.stex" ]
-dest_md5="c904a877ef57f991ce66e9dad584b48c"
 
 [params]
 
 compress/mode=0
 compress/lossy_quality=0.7
 compress/hdr_mode=0
+compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
 flags/filter=true
@@ -26,6 +27,7 @@ flags/srgb=2
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/HDR_as_SRGB=false
+process/invert_color=false
 stream=false
 size_limit=0
 detect_3d=true

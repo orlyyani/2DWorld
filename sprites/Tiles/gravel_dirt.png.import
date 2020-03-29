@@ -3,20 +3,21 @@
 importer="texture"
 type="StreamTexture"
 path="res://.import/gravel_dirt.png-469774e801e0581338ec04fe097e12ed.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
 source_file="res://sprites/Tiles/gravel_dirt.png"
-source_md5="f7f7a44ea5d9baa334210e754e28ae51"
-
 dest_files=[ "res://.import/gravel_dirt.png-469774e801e0581338ec04fe097e12ed.stex" ]
-dest_md5="ed963313aa8c2b07743db7f9b3b98b0a"
 
 [params]
 
 compress/mode=0
 compress/lossy_quality=0.7
 compress/hdr_mode=0
+compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
 flags/filter=true
@@ -26,6 +27,7 @@ flags/srgb=2
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/HDR_as_SRGB=false
+process/invert_color=false
 stream=false
 size_limit=0
 detect_3d=true

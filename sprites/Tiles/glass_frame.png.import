@@ -3,20 +3,21 @@
 importer="texture"
 type="StreamTexture"
 path="res://.import/glass_frame.png-67e237bc08ef13e34d4c6b664cff60b4.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
 source_file="res://sprites/Tiles/glass_frame.png"
-source_md5="1c3962a6e1c6e100668a68a51bca84a5"
-
 dest_files=[ "res://.import/glass_frame.png-67e237bc08ef13e34d4c6b664cff60b4.stex" ]
-dest_md5="4193ef9e33e49e15e16a58e379e50c15"
 
 [params]
 
 compress/mode=0
 compress/lossy_quality=0.7
 compress/hdr_mode=0
+compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
 flags/filter=true
@@ -26,6 +27,7 @@ flags/srgb=2
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/HDR_as_SRGB=false
+process/invert_color=false
 stream=false
 size_limit=0
 detect_3d=true

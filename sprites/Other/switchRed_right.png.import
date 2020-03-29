@@ -3,20 +3,21 @@
 importer="texture"
 type="StreamTexture"
 path="res://.import/switchRed_right.png-778eb5ee00df917cef2e997e30d23925.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
 source_file="res://sprites/Other/switchRed_right.png"
-source_md5="09021eed07d1f59cf4bb8b69dc75c35a"
-
 dest_files=[ "res://.import/switchRed_right.png-778eb5ee00df917cef2e997e30d23925.stex" ]
-dest_md5="279f00afd0f064b501d744cb81bd31b0"
 
 [params]
 
 compress/mode=0
 compress/lossy_quality=0.7
 compress/hdr_mode=0
+compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
 flags/filter=true
@@ -26,6 +27,7 @@ flags/srgb=2
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/HDR_as_SRGB=false
+process/invert_color=false
 stream=false
 size_limit=0
 detect_3d=true

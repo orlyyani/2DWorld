@@ -1,12 +1,11 @@
 extends Camera2D
 
-var main_char = preload("res://instances/Player.tscn")
+#var main_char = preload("res://instances/Player.tscn")
 var cam_speed = 10
 
 func _fixed_process(delta):
-	var target_pos = (get_node("Player").instance().get_global_pos()) * 0.5
-	set_global_pos(get_global_pos().linear_interpolate(target_pos, cam_speed * delta))
-
+	var target_pos = (get_node("Player").instance().global_position) * 0.5
+	global_position = (global_position.linear_interpolate(target_pos, cam_speed * delta))
 #func _ready():
 #	set_process(true)
 #	pass

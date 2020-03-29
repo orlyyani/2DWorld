@@ -3,20 +3,21 @@
 importer="texture"
 type="StreamTexture"
 path="res://.import/plantTop_red.png-98e1f79fa73d4b3aabad01a9b30abb0b.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
 source_file="res://sprites/Other/plantTop_red.png"
-source_md5="a6bd242f24bbf99d2c5555cceb2b135e"
-
 dest_files=[ "res://.import/plantTop_red.png-98e1f79fa73d4b3aabad01a9b30abb0b.stex" ]
-dest_md5="71b783be4d6d9246a908cb63a09a74ee"
 
 [params]
 
 compress/mode=0
 compress/lossy_quality=0.7
 compress/hdr_mode=0
+compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
 flags/filter=true
@@ -26,6 +27,7 @@ flags/srgb=2
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/HDR_as_SRGB=false
+process/invert_color=false
 stream=false
 size_limit=0
 detect_3d=true

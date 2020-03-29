@@ -3,20 +3,21 @@
 importer="texture"
 type="StreamTexture"
 path="res://.import/signArrow_BR.png-a7c1f6cd6a8609f5380bd4c524da0d9c.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
 source_file="res://sprites/Other/signArrow_BR.png"
-source_md5="e40d4ca709e879cf9a69e2e3d39c5b7c"
-
 dest_files=[ "res://.import/signArrow_BR.png-a7c1f6cd6a8609f5380bd4c524da0d9c.stex" ]
-dest_md5="be2ca879873f9c873a83799cf1bb0731"
 
 [params]
 
 compress/mode=0
 compress/lossy_quality=0.7
 compress/hdr_mode=0
+compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
 flags/filter=true
@@ -26,6 +27,7 @@ flags/srgb=2
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/HDR_as_SRGB=false
+process/invert_color=false
 stream=false
 size_limit=0
 detect_3d=true

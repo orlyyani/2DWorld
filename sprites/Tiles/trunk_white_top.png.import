@@ -3,20 +3,21 @@
 importer="texture"
 type="StreamTexture"
 path="res://.import/trunk_white_top.png-ed48c89c09726c4ef21ea87dd4c70781.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
 source_file="res://sprites/Tiles/trunk_white_top.png"
-source_md5="b30cf84667920b780070f7099c77586d"
-
 dest_files=[ "res://.import/trunk_white_top.png-ed48c89c09726c4ef21ea87dd4c70781.stex" ]
-dest_md5="34ee275de62b1b63dbf6930d51015ad5"
 
 [params]
 
 compress/mode=0
 compress/lossy_quality=0.7
 compress/hdr_mode=0
+compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
 flags/filter=true
@@ -26,6 +27,7 @@ flags/srgb=2
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/HDR_as_SRGB=false
+process/invert_color=false
 stream=false
 size_limit=0
 detect_3d=true

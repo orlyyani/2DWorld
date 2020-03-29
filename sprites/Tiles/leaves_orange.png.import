@@ -3,20 +3,21 @@
 importer="texture"
 type="StreamTexture"
 path="res://.import/leaves_orange.png-36a114d4e4e40c478615ae09dedfffcc.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
 source_file="res://sprites/Tiles/leaves_orange.png"
-source_md5="02052d96dd12634637e0a955c41de809"
-
 dest_files=[ "res://.import/leaves_orange.png-36a114d4e4e40c478615ae09dedfffcc.stex" ]
-dest_md5="523b001deb5977037d8341270db3080f"
 
 [params]
 
 compress/mode=0
 compress/lossy_quality=0.7
 compress/hdr_mode=0
+compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
 flags/filter=true
@@ -26,6 +27,7 @@ flags/srgb=2
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/HDR_as_SRGB=false
+process/invert_color=false
 stream=false
 size_limit=0
 detect_3d=true

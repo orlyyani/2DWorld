@@ -3,20 +3,21 @@
 importer="texture"
 type="StreamTexture"
 path="res://.import/fluidGreen_top.png-c4bff8a1ea75b5b101631a992a3e65d9.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
 source_file="res://sprites/Other/fluidGreen_top.png"
-source_md5="9bd11f07f7c555a366c1f4e71fea7ace"
-
 dest_files=[ "res://.import/fluidGreen_top.png-c4bff8a1ea75b5b101631a992a3e65d9.stex" ]
-dest_md5="789c290b7a376c7e0b564b5beaa7493f"
 
 [params]
 
 compress/mode=0
 compress/lossy_quality=0.7
 compress/hdr_mode=0
+compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
 flags/filter=true
@@ -26,6 +27,7 @@ flags/srgb=2
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/HDR_as_SRGB=false
+process/invert_color=false
 stream=false
 size_limit=0
 detect_3d=true

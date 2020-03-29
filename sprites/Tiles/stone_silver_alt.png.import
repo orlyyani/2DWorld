@@ -3,20 +3,21 @@
 importer="texture"
 type="StreamTexture"
 path="res://.import/stone_silver_alt.png-0356b7dd7d78c983a5b661eeb4cb9ed3.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
 source_file="res://sprites/Tiles/stone_silver_alt.png"
-source_md5="c3c4503eb8aef20516868bb97022f759"
-
 dest_files=[ "res://.import/stone_silver_alt.png-0356b7dd7d78c983a5b661eeb4cb9ed3.stex" ]
-dest_md5="cc58d1cb84c8f73bfd0972b1a599da47"
 
 [params]
 
 compress/mode=0
 compress/lossy_quality=0.7
 compress/hdr_mode=0
+compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
 flags/filter=true
@@ -26,6 +27,7 @@ flags/srgb=2
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/HDR_as_SRGB=false
+process/invert_color=false
 stream=false
 size_limit=0
 detect_3d=true

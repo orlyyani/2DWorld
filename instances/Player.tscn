@@ -1,61 +1,49 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=9 format=2]
 
 [ext_resource path="res://scripts/Player.gd" type="Script" id=1]
 [ext_resource path="res://sprites/Tiles/mushroom_red.png" type="Texture" id=2]
 [ext_resource path="res://scripts/Camera2D.gd" type="Script" id=3]
+[ext_resource path="res://scripts/player/motion/in_air/jump.gd" type="Script" id=4]
+[ext_resource path="res://scripts/player/player_state_machine.gd" type="Script" id=5]
+[ext_resource path="res://scripts/player/motion/on_ground/idle.gd" type="Script" id=6]
+[ext_resource path="res://scripts/player/motion/on_ground/move.gd" type="Script" id=7]
 
 [sub_resource type="RectangleShape2D" id=1]
-
-custom_solver_bias = 0.0
 extents = Vector2( 40.7178, 64.2802 )
 
-[node name="Player" type="KinematicBody2D" index="0" groups=[
+[node name="Player" type="KinematicBody2D" groups=[
 "player",
 ]]
-
-input_pickable = false
-collision_layer = 1
-collision_mask = 1
-collision/safe_margin = 0.08
 script = ExtResource( 1 )
 __meta__ = {
 "_edit_vertical_guides_": [ 63.9183 ]
 }
 
-[node name="Sprite" type="Sprite" parent="." index="0"]
-
-texture = ExtResource( 2 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="." index="1"]
-
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2( 0, 33.602 )
 scale = Vector2( 1, 0.475005 )
 shape = SubResource( 1 )
 
-[node name="Camera2D" type="Camera2D" parent="." index="2"]
-
-anchor_mode = 1
-rotating = false
+[node name="Camera2D" type="Camera2D" parent="."]
 current = true
-zoom = Vector2( 1, 1 )
-limit_left = -10000000
-limit_top = -10000000
-limit_right = 10000000
-limit_bottom = 10000000
-limit_smoothed = false
-drag_margin_h_enabled = false
-drag_margin_v_enabled = false
-smoothing_enabled = false
-smoothing_speed = 5.0
-offset_v = 0.0
-offset_h = 0.0
-drag_margin_left = 0.2
-drag_margin_top = 0.2
-drag_margin_right = 0.2
-drag_margin_bottom = 0.2
-editor_draw_screen = true
-editor_draw_limits = false
-editor_draw_drag_margin = false
+zoom = Vector2( 5, 5 )
 script = ExtResource( 3 )
 
+[node name="StateMachine" type="Node" parent="."]
+script = ExtResource( 5 )
 
+[node name="Idle" type="Node" parent="StateMachine"]
+script = ExtResource( 6 )
+
+[node name="Jump" type="Node" parent="StateMachine"]
+script = ExtResource( 4 )
+
+[node name="Move" type="Node" parent="StateMachine"]
+script = ExtResource( 7 )
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+
+[node name="BodyPivot" type="Position2D" parent="."]
+
+[node name="Sprite" type="Sprite" parent="BodyPivot"]
+texture = ExtResource( 2 )

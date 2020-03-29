@@ -3,20 +3,21 @@
 importer="texture"
 type="StreamTexture"
 path="res://.import/fluidRed.png-6014527b4d3a11778e04e9adff1e41ec.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
 source_file="res://sprites/Other/fluidRed.png"
-source_md5="500dd3f2804684fca1622b2a2ed74475"
-
 dest_files=[ "res://.import/fluidRed.png-6014527b4d3a11778e04e9adff1e41ec.stex" ]
-dest_md5="4196bbd8a3815324e5f3b1aa55d6b717"
 
 [params]
 
 compress/mode=0
 compress/lossy_quality=0.7
 compress/hdr_mode=0
+compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
 flags/filter=true
@@ -26,6 +27,7 @@ flags/srgb=2
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/HDR_as_SRGB=false
+process/invert_color=false
 stream=false
 size_limit=0
 detect_3d=true

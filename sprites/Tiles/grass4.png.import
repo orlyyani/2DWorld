@@ -3,20 +3,21 @@
 importer="texture"
 type="StreamTexture"
 path="res://.import/grass4.png-58a4367343035f13a161a5471b58c57e.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
 source_file="res://sprites/Tiles/grass4.png"
-source_md5="2f6f7af0347e395d8afafbaae43ba2e7"
-
 dest_files=[ "res://.import/grass4.png-58a4367343035f13a161a5471b58c57e.stex" ]
-dest_md5="0d4e2251d1f8b625db87a4eddb9f83c9"
 
 [params]
 
 compress/mode=0
 compress/lossy_quality=0.7
 compress/hdr_mode=0
+compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
 flags/filter=true
@@ -26,6 +27,7 @@ flags/srgb=2
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/HDR_as_SRGB=false
+process/invert_color=false
 stream=false
 size_limit=0
 detect_3d=true

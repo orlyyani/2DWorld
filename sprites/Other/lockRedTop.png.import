@@ -3,20 +3,21 @@
 importer="texture"
 type="StreamTexture"
 path="res://.import/lockRedTop.png-7c8a9a75ff3dcb6b2cd13d149142d6fa.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
 source_file="res://sprites/Other/lockRedTop.png"
-source_md5="c2d66c551026cd802e05e1bf8457f3a3"
-
 dest_files=[ "res://.import/lockRedTop.png-7c8a9a75ff3dcb6b2cd13d149142d6fa.stex" ]
-dest_md5="511aeb7f8f50a01c696bc1e708806129"
 
 [params]
 
 compress/mode=0
 compress/lossy_quality=0.7
 compress/hdr_mode=0
+compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
 flags/filter=true
@@ -26,6 +27,7 @@ flags/srgb=2
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/HDR_as_SRGB=false
+process/invert_color=false
 stream=false
 size_limit=0
 detect_3d=true

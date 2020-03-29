@@ -22,7 +22,7 @@ func _ready():
 	for x in range(0, chunk_width):
 		var y = floor(softnoise.openSimplex2D((get_global_transform().origin.x / 128 + x) * .1, 0) * surface_height * .2)
 		walkable_surface.append(y-1)
-		new_block(Vector2(x*128,y*128), GRASS)
+		new_block(Vector2(x*128,y*128), block_types.GRASS)
 		
 		#
 		var stone_y = floor(softnoise.openSimplex2D((get_global_transform().origin.x / 128 + x) * .1, 32) * 4)
@@ -30,9 +30,9 @@ func _ready():
 		#below the grass rock
 		for yy in range(y+1, world_depth):
 			if yy > world_depth*.25+stone_y:
-				new_block(Vector2(x*128,yy*128), STONE)
+				new_block(Vector2(x*128,yy*128), block_types.STONE)
 			else:
-				new_block(Vector2(x*128,yy*128), DIRT)
+				new_block(Vector2(x*128,yy*128), block_types.DIRT)
 	
 	randomize()
 	var res_x = randi()%60

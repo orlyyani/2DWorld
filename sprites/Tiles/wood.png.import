@@ -3,20 +3,21 @@
 importer="texture"
 type="StreamTexture"
 path="res://.import/wood.png-052e7aab44a004a39285318e193c1371.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
 source_file="res://sprites/Tiles/wood.png"
-source_md5="aa8fda4dc23112fa4d167303fbeacede"
-
 dest_files=[ "res://.import/wood.png-052e7aab44a004a39285318e193c1371.stex" ]
-dest_md5="951e6d54a384518f0264caa075d4f484"
 
 [params]
 
 compress/mode=0
 compress/lossy_quality=0.7
 compress/hdr_mode=0
+compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
 flags/filter=true
@@ -26,6 +27,7 @@ flags/srgb=2
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/HDR_as_SRGB=false
+process/invert_color=false
 stream=false
 size_limit=0
 detect_3d=true

@@ -3,20 +3,21 @@
 importer="texture"
 type="StreamTexture"
 path="res://.import/blockRed_key.png-a6283f9ea17c73e63d5d6b94c7b0ec38.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
 source_file="res://sprites/Other/blockRed_key.png"
-source_md5="5f230341c1a37bd4938f698f63126354"
-
 dest_files=[ "res://.import/blockRed_key.png-a6283f9ea17c73e63d5d6b94c7b0ec38.stex" ]
-dest_md5="d898a2d9ea91b95ddabb190f2378bda6"
 
 [params]
 
 compress/mode=0
 compress/lossy_quality=0.7
 compress/hdr_mode=0
+compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
 flags/filter=true
@@ -26,6 +27,7 @@ flags/srgb=2
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/HDR_as_SRGB=false
+process/invert_color=false
 stream=false
 size_limit=0
 detect_3d=true

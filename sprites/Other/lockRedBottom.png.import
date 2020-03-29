@@ -3,20 +3,21 @@
 importer="texture"
 type="StreamTexture"
 path="res://.import/lockRedBottom.png-7f75cd18aae28a832e48928dcfd2b026.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
 source_file="res://sprites/Other/lockRedBottom.png"
-source_md5="770cd0e92443907fa2a8ad82f9c2b9dc"
-
 dest_files=[ "res://.import/lockRedBottom.png-7f75cd18aae28a832e48928dcfd2b026.stex" ]
-dest_md5="4304897571edc388d5412cd41c6ad080"
 
 [params]
 
 compress/mode=0
 compress/lossy_quality=0.7
 compress/hdr_mode=0
+compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
 flags/filter=true
@@ -26,6 +27,7 @@ flags/srgb=2
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/HDR_as_SRGB=false
+process/invert_color=false
 stream=false
 size_limit=0
 detect_3d=true

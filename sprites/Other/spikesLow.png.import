@@ -3,20 +3,21 @@
 importer="texture"
 type="StreamTexture"
 path="res://.import/spikesLow.png-d127b25fdf0c8cd6e51e0ec2bad8fdd6.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
 source_file="res://sprites/Other/spikesLow.png"
-source_md5="272f2251d6e99c0e4c02df321be33979"
-
 dest_files=[ "res://.import/spikesLow.png-d127b25fdf0c8cd6e51e0ec2bad8fdd6.stex" ]
-dest_md5="c51fce75dd26787df755c25ee07bb660"
 
 [params]
 
 compress/mode=0
 compress/lossy_quality=0.7
 compress/hdr_mode=0
+compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
 flags/filter=true
@@ -26,6 +27,7 @@ flags/srgb=2
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/HDR_as_SRGB=false
+process/invert_color=false
 stream=false
 size_limit=0
 detect_3d=true

@@ -3,20 +3,21 @@
 importer="texture"
 type="StreamTexture"
 path="res://.import/gravel_stone.png-9d14ad316a254e78f76a05a1c9a63c93.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
 source_file="res://sprites/Tiles/gravel_stone.png"
-source_md5="7a0bb26ba98e8f01778216662501db0d"
-
 dest_files=[ "res://.import/gravel_stone.png-9d14ad316a254e78f76a05a1c9a63c93.stex" ]
-dest_md5="8fdf04a1d1e98910d75d7fdb8b88aceb"
 
 [params]
 
 compress/mode=0
 compress/lossy_quality=0.7
 compress/hdr_mode=0
+compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
 flags/filter=true
@@ -26,6 +27,7 @@ flags/srgb=2
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/HDR_as_SRGB=false
+process/invert_color=false
 stream=false
 size_limit=0
 detect_3d=true

@@ -3,20 +3,21 @@
 importer="texture"
 type="StreamTexture"
 path="res://.import/flagGreen_up.png-7f44fbe092f530c7af29ac220c8eb728.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
 source_file="res://sprites/Other/flagGreen_up.png"
-source_md5="1e9bcff5c98f9fef8384abee4d5037f1"
-
 dest_files=[ "res://.import/flagGreen_up.png-7f44fbe092f530c7af29ac220c8eb728.stex" ]
-dest_md5="65c85722f37951fcd4bde43e7e1857bd"
 
 [params]
 
 compress/mode=0
 compress/lossy_quality=0.7
 compress/hdr_mode=0
+compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
 flags/filter=true
@@ -26,6 +27,7 @@ flags/srgb=2
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/HDR_as_SRGB=false
+process/invert_color=false
 stream=false
 size_limit=0
 detect_3d=true

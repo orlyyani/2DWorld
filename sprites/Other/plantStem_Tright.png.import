@@ -3,20 +3,21 @@
 importer="texture"
 type="StreamTexture"
 path="res://.import/plantStem_Tright.png-fbb2783a047d5a0e25b1d7af6cacfeb3.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
 source_file="res://sprites/Other/plantStem_Tright.png"
-source_md5="fb900f04272184e3cfd58c16e4dbef55"
-
 dest_files=[ "res://.import/plantStem_Tright.png-fbb2783a047d5a0e25b1d7af6cacfeb3.stex" ]
-dest_md5="04c5dd4c9b1e3845ab36eead50189c02"
 
 [params]
 
 compress/mode=0
 compress/lossy_quality=0.7
 compress/hdr_mode=0
+compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
 flags/filter=true
@@ -26,6 +27,7 @@ flags/srgb=2
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/HDR_as_SRGB=false
+process/invert_color=false
 stream=false
 size_limit=0
 detect_3d=true

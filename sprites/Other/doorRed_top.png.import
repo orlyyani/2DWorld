@@ -3,20 +3,21 @@
 importer="texture"
 type="StreamTexture"
 path="res://.import/doorRed_top.png-2dd107f5201830095eaf3cd29830068e.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
 source_file="res://sprites/Other/doorRed_top.png"
-source_md5="650b467681baa956093ca660bb5f0e54"
-
 dest_files=[ "res://.import/doorRed_top.png-2dd107f5201830095eaf3cd29830068e.stex" ]
-dest_md5="785c9e8073e2f52b81d6417ce6e8c9fd"
 
 [params]
 
 compress/mode=0
 compress/lossy_quality=0.7
 compress/hdr_mode=0
+compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
 flags/filter=true
@@ -26,6 +27,7 @@ flags/srgb=2
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/HDR_as_SRGB=false
+process/invert_color=false
 stream=false
 size_limit=0
 detect_3d=true
